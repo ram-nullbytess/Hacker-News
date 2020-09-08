@@ -1,0 +1,479 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script
+			  src="https://code.jquery.com/jquery-3.3.1.js"
+			  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+			  crossorigin="anonymous"></script
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <div class="container">
+            
+            
+        </div>
+    </head>
+    <body>
+            
+    
+
+<div class='container'>
+        <form class="navbar-form " action="/" mehtod='GET' id='form1'>
+        <div class="fixed">
+               
+                <div class="navbar navbar-default">
+                    <div class="container-fluid header">
+                        <div class="navbar-header">
+                            
+                                <a class="navbar-brand" href="/profile">sreeram</a>
+                            
+                        </div>
+                        
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="/history" class='user'><i class='fa fa-history'></i></a></li>
+                                <li><a href="/logout" class='user'>logout</a></li>
+                            </ul>
+                        
+                            <div class='searchi'>
+                                <div class="form-group">
+                                    <input type="text" class="form-control form-control-lg form-control-borderless" value='' id='query' name="query" type="search" placeholder="Search topics or keywords">
+                                </div>
+                                <button type="submit" class="btn btn-default search-btn"><i class="fa fa-search" style="color: rgb(255, 116, 43)"></i></button>
+                            </div>
+                    </div><!-- /.container-fluid -->
+                </div>
+        
+                <div class='filter'>
+                    <!-- <form action="/" mehtod='GET'> -->
+                        <label for="search">Search</label>
+                        <select id='search' name='type'>
+                            <!-- <option value='all' id='all'>All</option> -->
+                            <option value="story" id='story' selected>Stories</option>
+                            <option value="comment" id='comment'>Comments</option>
+                        </select> 
+                        <!-- <input type="radio" name="gender" id="male" value="male"><br> -->
+                        <label for="by">By</label>
+                        <select id='by' name='by' >
+                            <option value="date" id='date'>Date</option>
+                            <option value="popularity" id='popularity' selected>Popularity</option>
+                        </select>
+                        <label for="for">For</label>
+                        <select id='for' name='dateRange'>
+                            <option id='f1' value="all" selected>All Time</option>
+                            <option id='f2' value="last24h">Last 24hrs</option>
+                            <option id='f3' value="pastWeek">Past Week</option>
+                            <option id='f4' value="pastMonth">Past Month</option>
+                            <option id='f5' value="pastYear">Past Year</option>
+
+                        </select>
+                        <!-- <button type="submit" class="btn btn-default"><i class="fa fa-arrow-right"></i></button> -->
+                    <!-- </form> -->
+                    <span class='result pull-right'>
+                        22093084 results ( 0.006 seconds)
+                    </span>
+                </div>
+            
+        </div>
+    
+    <div class='content'>
+        
+            
+                <div class=each-content>
+                    <a href="http://www.bbc.com/news/uk-43396008"> Stephen Hawking has died</a>
+                    <div class='small'>
+                        <a>6015 points </a>
+                        | <a>Cogito </a>
+                        
+                        
+                        
+                            | <a>2 years ago</a>
+                        
+                        <!-- | <a>2018-03-14T03:50:30.000Z</a> -->
+                        | <a href='/comments/16582136'>436 Comments </a>
+                        | <a href="http://www.bbc.com/news/uk-43396008">( http://www.bbc.com/news/uk-43396008 )</a>
+                    </div>
+            
+                </div>
+                
+        
+            
+                <div class=each-content>
+                    <a href="http://www.apple.com/customer-letter/"> A Message to Our Customers</a>
+                    <div class='small'>
+                        <a>5771 points </a>
+                        | <a>epaga </a>
+                        
+                        
+                        
+                            | <a>4 years ago</a>
+                        
+                        <!-- | <a>2016-02-17T08:38:37.000Z</a> -->
+                        | <a href='/comments/11116274'>967 Comments </a>
+                        | <a href="http://www.apple.com/customer-letter/">( http://www.apple.com/customer-letter/ )</a>
+                    </div>
+            
+                </div>
+                
+        
+            
+                <div class=each-content>
+                    <a href="http://www.apple.com/stevejobs/"> Steve Jobs has passed away.</a>
+                    <div class='small'>
+                        <a>4271 points </a>
+                        | <a>patricktomas </a>
+                        
+                        
+                        
+                            | <a>8 years ago</a>
+                        
+                        <!-- | <a>2011-10-05T23:42:23.000Z</a> -->
+                        | <a href='/comments/3078128'>376 Comments </a>
+                        | <a href="http://www.apple.com/stevejobs/">( http://www.apple.com/stevejobs/ )</a>
+                    </div>
+            
+                </div>
+                
+        
+            
+                <div class=each-content>
+                    <a href="https://www.susanjfowler.com/blog/2017/2/19/reflecting-on-one-very-strange-year-at-uber"> Reflecting on one very, very strange year at Uber</a>
+                    <div class='small'>
+                        <a>4107 points </a>
+                        | <a>grey-area </a>
+                        
+                        
+                        
+                            | <a>3 years ago</a>
+                        
+                        <!-- | <a>2017-02-19T21:16:33.000Z</a> -->
+                        | <a href='/comments/13682022'>1014 Comments </a>
+                        | <a href="https://www.susanjfowler.com/blog/2017/2/19/reflecting-on-one-very-strange-year-at-uber">( https://www.susanjfowler.com/blog/2017/2/19/reflecting-on-one-very-strange-year-at-uber )</a>
+                    </div>
+            
+                </div>
+                
+        
+            
+                <div class=each-content>
+                    <a href="https://www.tbray.org/ongoing/When/202x/2020/04/29/Leaving-Amazon"> Bye, Amazon</a>
+                    <div class='small'>
+                        <a>3816 points </a>
+                        | <a>grey-area </a>
+                        
+                        
+                        
+                            | <a>4 months ago</a>
+                        
+                        <!-- | <a>2020-05-04T08:43:35.000Z</a> -->
+                        | <a href='/comments/23065782'>1097 Comments </a>
+                        | <a href="https://www.tbray.org/ongoing/When/202x/2020/04/29/Leaving-Amazon">( https://www.tbray.org/ongoing/When/202x/2020/04/29/Leaving-Amazon )</a>
+                    </div>
+            
+                </div>
+                
+        
+            
+                <div class=each-content>
+                    <a href="https://twitter.com/craigmod/status/1219644556003565568"> Every Google result now looks like an ad</a>
+                    <div class='small'>
+                        <a>3592 points </a>
+                        | <a>cmod </a>
+                        
+                        
+                        
+                            | <a>7 months ago</a>
+                        
+                        <!-- | <a>2020-01-21T15:38:22.000Z</a> -->
+                        | <a href='/comments/22107823'>969 Comments </a>
+                        | <a href="https://twitter.com/craigmod/status/1219644556003565568">( https://twitter.com/craigmod/status/1219644556003565568 )</a>
+                    </div>
+            
+                </div>
+                
+        
+            
+                <div class=each-content>
+                    <a href="https://www.nytimes.com/2017/12/14/technology/net-neutrality-repeal-vote.html"> F.C.C. Repeals Net Neutrality Rules</a>
+                    <div class='small'>
+                        <a>3384 points </a>
+                        | <a>panny </a>
+                        
+                        
+                        
+                            | <a>2 years ago</a>
+                        
+                        <!-- | <a>2017-12-14T18:13:35.000Z</a> -->
+                        | <a href='/comments/15924794'>1397 Comments </a>
+                        | <a href="https://www.nytimes.com/2017/12/14/technology/net-neutrality-repeal-vote.html">( https://www.nytimes.com/2017/12/14/technology/net-neutrality-repeal-vote.html )</a>
+                    </div>
+            
+                </div>
+                
+        
+            
+                <div class=each-content>
+                    <a href="http://news.ycombinator.com/vote?for=3742902&amp;dir=up&amp;whence=%6e%65%77%65%73%74"> Show HN: This up votes itself</a>
+                    <div class='small'>
+                        <a>3381 points </a>
+                        | <a>olalonde </a>
+                        
+                        
+                        
+                            | <a>8 years ago</a>
+                        
+                        <!-- | <a>2012-03-23T00:40:39.000Z</a> -->
+                        | <a href='/comments/3742902'>83 Comments </a>
+                        | <a href="http://news.ycombinator.com/vote?for=3742902&amp;dir=up&amp;whence=%6e%65%77%65%73%74">( http://news.ycombinator.com/vote?for=3742902&amp;dir=up&amp;whence=%6e%65%77%65%73%74 )</a>
+                    </div>
+            
+                </div>
+                
+        
+            
+                <div class=each-content>
+                    <a href="https://www.mozilla.org/en-US/firefox/switch/"> Switch from Chrome to Firefox</a>
+                    <div class='small'>
+                        <a>3287 points </a>
+                        | <a>WisNorCan </a>
+                        
+                        
+                        
+                            | <a>1 years ago</a>
+                        
+                        <!-- | <a>2019-05-30T16:09:19.000Z</a> -->
+                        | <a href='/comments/20052623'>981 Comments </a>
+                        | <a href="https://www.mozilla.org/en-US/firefox/switch/">( https://www.mozilla.org/en-US/firefox/switch/ )</a>
+                    </div>
+            
+                </div>
+                
+        
+                
+        
+            
+                <div class=each-content>
+                    <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1139"> Cloudflare Reverse Proxies Are Dumping Uninitialized Memory</a>
+                    <div class='small'>
+                        <a>3238 points </a>
+                        | <a>tptacek </a>
+                        
+                        
+                        
+                            | <a>3 years ago</a>
+                        
+                        <!-- | <a>2017-02-23T23:05:08.000Z</a> -->
+                        | <a href='/comments/13718752'>992 Comments </a>
+                        | <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1139">( https://bugs.chromium.org/p/project-zero/issues/detail?id=1139 )</a>
+                    </div>
+            
+                </div>
+                
+        
+            
+                <div class=each-content>
+                    <a href="http://www.bbc.co.uk/news/uk-politics-36615028"> UK votes to leave EU</a>
+                    <div class='small'>
+                        <a>3125 points </a>
+                        | <a>dmmalam </a>
+                        
+                        
+                        
+                            | <a>4 years ago</a>
+                        
+                        <!-- | <a>2016-06-24T03:48:57.000Z</a> -->
+                        | <a href='/comments/11966167'>2531 Comments </a>
+                        | <a href="http://www.bbc.co.uk/news/uk-politics-36615028">( http://www.bbc.co.uk/news/uk-politics-36615028 )</a>
+                    </div>
+            
+                </div>
+                
+        
+            
+                <div class=each-content>
+                    <a href="http://www.businessweek.com/articles/2014-10-30/tim-cook-im-proud-to-be-gay"> Tim Cook Speaks Up</a>
+                    <div class='small'>
+                        <a>3086 points </a>
+                        | <a>replicatorblog </a>
+                        
+                        
+                        
+                            | <a>5 years ago</a>
+                        
+                        <!-- | <a>2014-10-30T11:12:23.000Z</a> -->
+                        | <a href='/comments/8532261'>974 Comments </a>
+                        | <a href="http://www.businessweek.com/articles/2014-10-30/tim-cook-im-proud-to-be-gay">( http://www.businessweek.com/articles/2014-10-30/tim-cook-im-proud-to-be-gay )</a>
+                    </div>
+            
+                </div>
+                
+        
+            
+                <div class=each-content>
+                    <a href="https://security.googleblog.com/2017/02/announcing-first-sha1-collision.html"> Announcing the first SHA-1 collision</a>
+                    <div class='small'>
+                        <a>3030 points </a>
+                        | <a>pfg </a>
+                        
+                        
+                        
+                            | <a>3 years ago</a>
+                        
+                        <!-- | <a>2017-02-23T13:01:08.000Z</a> -->
+                        | <a href='/comments/13713480'>485 Comments </a>
+                        | <a href="https://security.googleblog.com/2017/02/announcing-first-sha1-collision.html">( https://security.googleblog.com/2017/02/announcing-first-sha1-collision.html )</a>
+                    </div>
+            
+                </div>
+                
+        
+            
+                <div class=each-content>
+                    <a href="https://www.deepsouthventures.com/i-sell-onions-on-the-internet/"> I Sell Onions on the Internet</a>
+                    <div class='small'>
+                        <a>3015 points </a>
+                        | <a>eightturn </a>
+                        
+                        
+                        
+                            | <a>1 years ago</a>
+                        
+                        <!-- | <a>2019-04-23T13:00:24.000Z</a> -->
+                        | <a href='/comments/19728132'>435 Comments </a>
+                        | <a href="https://www.deepsouthventures.com/i-sell-onions-on-the-internet/">( https://www.deepsouthventures.com/i-sell-onions-on-the-internet/ )</a>
+                    </div>
+            
+                </div>
+                
+        
+            
+                <div class=each-content>
+                    <a href="https://twitter.com/lemiorhan/status/935578694541770752"> macOS High Sierra: Anyone can login as “root” with empty password</a>
+                    <div class='small'>
+                        <a>3001 points </a>
+                        | <a>vladikoff </a>
+                        
+                        
+                        
+                            | <a>2 years ago</a>
+                        
+                        <!-- | <a>2017-11-28T19:41:10.000Z</a> -->
+                        | <a href='/comments/15800676'>813 Comments </a>
+                        | <a href="https://twitter.com/lemiorhan/status/935578694541770752">( https://twitter.com/lemiorhan/status/935578694541770752 )</a>
+                    </div>
+            
+                </div>
+                
+        
+            
+                <div class=each-content>
+                    <a href="https://techcrunch.com/2018/02/06/spacexs-historic-falcon-heavy-successfully-launches/?ncid=rss&amp;utm_source=dlvr.it&amp;utm_medium=twitter"> SpaceX’s Falcon Heavy successfully launches</a>
+                    <div class='small'>
+                        <a>2968 points </a>
+                        | <a>mpweiher </a>
+                        
+                        
+                        
+                            | <a>2 years ago</a>
+                        
+                        <!-- | <a>2018-02-06T20:57:15.000Z</a> -->
+                        | <a href='/comments/16319505'>872 Comments </a>
+                        | <a href="https://techcrunch.com/2018/02/06/spacexs-historic-falcon-heavy-successfully-launches/?ncid=rss&amp;utm_source=dlvr.it&amp;utm_medium=twitter">( https://techcrunch.com/2018/02/06/spacexs-historic-falcon-heavy-successfully-launches/?ncid=rss&amp;utm_source=dlvr.it&amp;utm_medium=twitter )</a>
+                    </div>
+            
+                </div>
+                
+        
+            
+                <div class=each-content>
+                    <a href="https://www.buzzfeednews.com/article/alexkantrowitz/twitter-will-allow-employees-to-work-at-home-forever"> Twitter Will Allow Employees to Work at Home Forever</a>
+                    <div class='small'>
+                        <a>2953 points </a>
+                        | <a>minimaxir </a>
+                        
+                        
+                        
+                            | <a>3 months ago</a>
+                        
+                        <!-- | <a>2020-05-12T16:09:46.000Z</a> -->
+                        | <a href='/comments/23155647'>1339 Comments </a>
+                        | <a href="https://www.buzzfeednews.com/article/alexkantrowitz/twitter-will-allow-employees-to-work-at-home-forever">( https://www.buzzfeednews.com/article/alexkantrowitz/twitter-will-allow-employees-to-work-at-home-forever )</a>
+                    </div>
+            
+                </div>
+                
+        
+            
+                <div class=each-content>
+                    <a href="https://www.cnbc.com/2018/10/15/microsoft-co-founder-paul-allen-dies-of-cancer-at-age-65.html"> Paul Allen has died</a>
+                    <div class='small'>
+                        <a>2901 points </a>
+                        | <a>coloneltcb </a>
+                        
+                        
+                        
+                            | <a>1 years ago</a>
+                        
+                        <!-- | <a>2018-10-15T22:00:14.000Z</a> -->
+                        | <a href='/comments/18224227'>277 Comments </a>
+                        | <a href="https://www.cnbc.com/2018/10/15/microsoft-co-founder-paul-allen-dies-of-cancer-at-age-65.html">( https://www.cnbc.com/2018/10/15/microsoft-co-founder-paul-allen-dies-of-cancer-at-age-65.html )</a>
+                    </div>
+            
+                </div>
+                
+        
+            
+                <div class=each-content>
+                    <a href="http://www.bloomberg.com/news/articles/2018-06-03/microsoft-is-said-to-have-agreed-to-acquire-coding-site-github?"> Microsoft Is Said to Have Agreed to Acquire GitHub</a>
+                    <div class='small'>
+                        <a>2873 points </a>
+                        | <a>miguelrochefort </a>
+                        
+                        
+                        
+                            | <a>2 years ago</a>
+                        
+                        <!-- | <a>2018-06-03T20:14:26.000Z</a> -->
+                        | <a href='/comments/17221527'>1437 Comments </a>
+                        | <a href="http://www.bloomberg.com/news/articles/2018-06-03/microsoft-is-said-to-have-agreed-to-acquire-coding-site-github?">( http://www.bloomberg.com/news/articles/2018-06-03/microsoft-is-said-to-have-agreed-to-acquire-coding-site-github? )</a>
+                    </div>
+            
+                </div>
+                
+        
+        <div class="paginate-container codesearch-pagination-container" >
+            <div class="d-flex d-md-inline-block pagination" data-pjax="true">
+                
+                
+                <!-- <span class="previous_page disabled">Previous</span> -->
+                <a  href="/?query=&amp;type=story&amp;by=popularity&amp;dateRange=all&amp;page=0"><span id='1' class='pagi'>1</span></a> 
+                <a  href="/?query=&amp;type=story&amp;by=popularity&amp;dateRange=all&amp;page=1"><span id='2' class='pagi'>2</span></a> 
+                <a  href="/?query=&amp;type=story&amp;by=popularity&amp;dateRange=all&amp;page=2"><span id='3' class='pagi'>3</span></a> 
+                <a  href="/?query=&amp;type=story&amp;by=popularity&amp;dateRange=all&amp;page=3"><span id='4' class='pagi'>4</span></a> 
+                <a  href="/?query=&amp;type=story&amp;by=popularity&amp;dateRange=all&amp;page=4"><span id='5' class='pagi'>5</span></a>  
+                <span class="gap">…</span>
+                
+                <span class="gap">…</span> 
+                <a  href="/?query=&amp;type=story&amp;by=popularity&amp;dateRange=all&amp;page=48"><span id='49' class='pagi'>49</span></a>  
+                <a href="/?query=&amp;type=story&amp;by=popularity&amp;dateRange=all&amp;page=49"><span id='50' class='pagi'>50</span></a>
+                
+                    
+                    <a id='next' href="/?query=&amp;type=story&amp;by=popularity&amp;dateRange=all&amp;page=01"><span class='pagi'>&raquo;</span></a> 
+                
+                    
+                <!-- <a class="next_page" rel="next" href="/search?p=2&amp;q=ajax&amp;type=Repositories">Next</a> -->
+            </div>
+        </div>
+    </div>
+
+    
+</form> 
+</div>  
+
+    <script src="./js/main.js"></script>
+
+</body>
+</html>
